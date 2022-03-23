@@ -1,0 +1,48 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Gulp-starter
+    link(rel="stylesheet" href="css/main.min.css")
+    script(src="js/main.js")
+  body
+    section.section
+      .container.section__container
+        h1.section__title Buy Our Safe & Secure VPN
+        p.section__subtitle STEP 1
+        p.section__description Choose Your Plan
+        ul.list
+          li.list__item
+            h3.list__title MONTHLY
+            p.list__price
+              span.list__dollar $
+              span.list__number 6.95
+              span.list__month /mo.
+            p.list__text Includes all VPN features.
+            a.list__btn(href="#") SELECT PLAN
+
+          li.list__item.list__item--selected
+            h3.list__title TWO YEARS
+            p.list__price.list__price--sale
+              span.list__dollar $
+              span.list__number 2.91
+              span.list__month /mo.
+            p.list__text.list__text-with-sale
+              span.list__red-text $166.80
+              span $69.95 per two years
+              span.list__sale-text Save 58%*
+            a.list__btn.list__btn--selected(href="#") PLAN SELECTED
+
+          li.list__item
+            h3.list__title YEARLY
+            p.list__price.list__price--sale
+              span.list__dollar $
+              span.list__number 3.33
+              span.list__month /mo.
+            p.list__text.list__text-with-sale
+              span.list__red-text $83.40
+              span $39.95 per year
+              span.list__sale-text Save 52%*
+            a.list__btn(href="#") SELECT PLAN
